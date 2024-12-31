@@ -17,7 +17,7 @@ import Image from "next/image";
 
 export default class ImagesCaurosel extends Component{
 render(): ReactNode {
-    let data =[
+    const data =[
         {
             img: Image1,
         title:'students learnng Web3 basics '
@@ -70,8 +70,8 @@ const settings ={
             }
         }
     ],
-    customPaging: (i: number) => {
-        <div className="mt-2 text-xs opacity-0">(i)</div>
+    customPaging: () => {
+        <div className="mt-2 text-xs opacity-0"></div>
     },
         };
         return( 

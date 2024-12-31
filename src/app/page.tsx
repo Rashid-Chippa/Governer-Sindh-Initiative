@@ -1,5 +1,5 @@
 import Text from "@/components/Text";
-import Image from "next/image";
+
 import Compulsory from "@/components/Compulsory";
 import Advance from "@/components/Advance";
 import Hero from "@/components/Hero";
